@@ -7,7 +7,7 @@
         <label for="senha">Senha</label>
         <input type="password" id="senha" name="senha" v-model="senha">
         <label for="rua">Cep</label>
-        <input type="text" id="cep" name="cep" v-model="cep" @keyup="prencherCep">
+        <input type="text" id="cep" name="cep" v-model="cep" @keyup="preencherCep">
         <label for="rua">Rua</label>
         <input type="text" id="rua" name="rua" v-model="rua">
         <label for="numero">Número</label>
@@ -38,12 +38,14 @@ export default {
         })
     },
     methods: {
-        prencherCep() {
+        preencherCep() {
             const cep = this.cep.replace(/\D/g, "");
-            if(cep.lenght === 8) {
+            if(cep.length === 8) {
                 getCep(cep).then(r => {
-                    console.log(r);
                     this.rua = r.data.logradouro;
+                    this.bairro = r.data.bairro;
+                    this.estado = r.data.uf;
+                    this.cidade = r.data.localidade
                 })
             }
         }

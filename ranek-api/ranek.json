@@ -21,6 +21,18 @@
       "numero": "25",
       "estado": "RJ",
       "cidade": "Rio de Janeiro"
+    },
+    {
+      "id": "kamuiakira.yo@gmail.com",
+      "nome": "Yuri Oliveira Marques",
+      "email": "kamuiakira.yo@gmail.com",
+      "senha": "jamdef15900",
+      "cep": "14031-260",
+      "rua": "Rua Professor Renato Jardim",
+      "numero": "2209",
+      "bairro": "Parque Ribeirão Preto",
+      "cidade": "Ribeirão Preto",
+      "estado": "SP"
     }
   ],
   "produto": [
