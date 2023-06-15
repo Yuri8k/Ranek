@@ -467,6 +467,38 @@
       "vendido": "false",
       "descricao": "Esse é um novo tablet.",
       "fotos": null
+    },
+    {
+      "nome": "batata",
+      "preco": "2000",
+      "descricao": "",
+      "fotos": null,
+      "usuario_id": "andre@origamid.com",
+      "id": "WSCz4LZ"
+    },
+    {
+      "nome": "batata",
+      "preco": "2000",
+      "descricao": "",
+      "fotos": null,
+      "usuario_id": "andre@origamid.com",
+      "id": "qXGBRy5"
+    },
+    {
+      "nome": "batata",
+      "preco": "2000",
+      "descricao": "",
+      "fotos": null,
+      "usuario_id": "andre@origamid.com",
+      "id": "Wg9WMw6"
+    },
+    {
+      "nome": "batata",
+      "preco": "2000",
+      "descricao": "",
+      "fotos": null,
+      "usuario_id": "andre@origamid.com",
+      "id": "pHuO3T5"
     }
   ]
 }
