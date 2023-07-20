@@ -31,7 +31,7 @@ export default {
     },
     methods: {
         ...mapActions(["getUsuarioProdutos"]),
-        deletar(id) {
+        deletarProduto(id) {
             const confirmar = window.confirm("Deseja remover este produto?");
             if(confirmar) {
                 api.delete(`/produto/${id}`).then(() => {
